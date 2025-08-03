@@ -9,7 +9,7 @@ if uploaded_file is not None:
     st.image(uploaded_file, width=250)
     bytes_data = uploaded_file.read()
 
-    MODAL_FASTAPI_ENDPOINT_URL = "https://modal.com/apps/twinklehandaa/main/deployed/catdog-classifier/classify/" # Replace with YOUR actual URL
+    MODAL_FASTAPI_ENDPOINT_URL = "https://modal.com/apps/twinklehandaa/main/deployed/catdog-classifier/classify/" 
 
     with st.spinner("Classifying..."):
         try:
@@ -37,5 +37,6 @@ if uploaded_file is not None:
             st.error("The request timed out. The Modal function might be taking too long to respond.")
         except requests.exceptions.RequestException as e:
             st.error(f"An unexpected error occurred during the request: {e}")
+
 
 
