@@ -17,4 +17,9 @@ Binary image classifier using PyTorch trained on the Cats vs Dogs dataset, deplo
 - User uploads image and gets prediction
 
 
-<img width="1349" height="666" alt="image" src="https://github.com/user-attachments/assets/f37c0cbf-d35b-4772-8594-de57cfc5a7b5" />
+
+
+## 💻 Working:
+
+https://github.com/user-attachments/assets/89a6fd19-dfc8-43c8-89b1-c5b6e85c5193
+
