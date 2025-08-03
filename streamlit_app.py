@@ -1,7 +1,7 @@
 import streamlit as st
 import requests 
 
-st.title("🐱🐶 Cat vs Dog Classifier (Modal Web App)")
+st.title("🐱🐶 Cat vs Dog Classifier")
 
 uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
@@ -37,4 +37,5 @@ if uploaded_file is not None:
             st.error("The request timed out. The Modal function might be taking too long to respond.")
         except requests.exceptions.RequestException as e:
             st.error(f"An unexpected error occurred during the request: {e}")
+
 
